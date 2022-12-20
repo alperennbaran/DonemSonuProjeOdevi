@@ -21,7 +21,7 @@ switch (a)
 {
 case 1:
     printf("%d. Soru\n",i+1);
-    printf("\nKayisi kivaminda yumurta pisirmek için yumurtayi ocaga koyduktan itibaren kac dakika beklemek gerekiyor?\n A-)8-9 dakika\n B-)4-5 dakika\n C-)14-15 dakika\n D-)6-7 dakika\n ");
+    printf("\nKayisi kivaminda yumurta pisirmek icin yumurtayi ocaga koyduktan itibaren kac dakika beklemek gerekiyor?\n A-)8-9 dakika\n B-)4-5 dakika\n C-)14-15 dakika\n D-)6-7 dakika\n ");
     cevap=getch();
     switch (cevap)
     {
@@ -252,7 +252,7 @@ printf("%d. Soru\n",i+1);
     break;
 case 8:
 printf("%d. Soru\n",i+1);
-    printf("Komposto ve hosaflar daha çok hangi tur yemeklerin arkasindan ikram edilir?\n A-)Corba\n B-)Pilav\n C-)Et Yemegi\n D-)Sebze Yemegi\n ");
+    printf("Komposto ve hosaflar daha cok hangi tur yemeklerin arkasindan ikram edilir?\n A-)Corba\n B-)Pilav\n C-)Et Yemegi\n D-)Sebze Yemegi\n ");
     cevap=getch();
     switch (cevap)
     {
@@ -283,7 +283,7 @@ printf("%d. Soru\n",i+1);
     break;
 case 9:
 printf("%d. Soru\n",i+1);
-    printf("Gunumuzde komposto ve hosaflar ne zaman daha çok tuketilmektedir?\n A-)Ramazan Ayi\n B-)Muharrem Ayi\n C-)Kurban Bayrami\n D-)Dugunlerde\n ");
+    printf("Gunumuzde komposto ve hosaflar ne zaman daha cok tuketilmektedir?\n A-)Ramazan Ayi\n B-)Muharrem Ayi\n C-)Kurban Bayrami\n D-)Dugunlerde\n ");
     cevap=getch();
     switch (cevap)
     {
@@ -314,7 +314,7 @@ printf("%d. Soru\n",i+1);
     break;
 case 10:
 printf("%d. Soru\n",i+1);
-    printf("Hangisi kebabiyla unlu sehirlerimizdendir?\n A-)Karaman\n B-)Kars\n C-)Antalya\n D-)Yozgat\n ");
+    printf("Hangisi kebabiyla unlu sehirlerimizdendir?\n A-)Karaman\n B-)Kars\n C-)Yozgat\n D-)Antalya\n ");
     cevap=getch();
     switch (cevap)
     {
