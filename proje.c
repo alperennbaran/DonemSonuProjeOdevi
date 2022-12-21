@@ -397,17 +397,17 @@ default:
 }
 printf("Puaniniz = %d\n",puan);                        //yarışmacının aldığı puanı yazdırır 
     if(puan>=80){
-        printf("Ilber ORTAYLI olma yolundasin");
+        printf("Ilber ORTAYLI olma yolundasin!");
     }
     else if(puan >=70){
-        printf("Celal SENGOR olacan ha gayret");
+        printf("Celal SENGOR olacan ha gayret!");
     }
     else if(puan >=50){
-        printf("Alperenu BARAN");
+        printf("Iyisin ama daha ogrenmen gereken cok sey var!");
     
     }
     else if(puan<50){
-        printf("Tarihini bilmeyen bizden degildir");
+        printf("KPSS'de de boyle yaparsan yanarsin!");
     }
     return puan;
    
@@ -427,6 +427,7 @@ int puan;
 
 int main(){
    int kategori,zorluk;
+   char z;
 
 struct kullanicibilgisi bilgisi;                   //burada kullanıcı bilgilerini tuttugumuz bir struct yapısı oluşturduk
    
@@ -490,7 +491,7 @@ struct kullanicibilgisi bilgisi;                   //burada kullanıcı bilgiler
         exit(1);}
 
     
-    
+    z=getch();                                                
  
 
     
